@@ -1,0 +1,51 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+   background: linear-gradient(to right, blue, purple); 
+}
+.container  {
+    width: 30%; 
+    margin-top: 10%;
+    margin-left: 35%;
+    background-color: rgb(255, 255, 255);
+    text-align: center; 
+    
+}
+h1{
+    margin-bottom: 8%;
+    color: rgb(0, 0, 0);
+}
+
+#email {
+    margin-top: 5%;
+    margin-bottom: 8%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    width: 180px;
+    height: 25px;
+}
+#password {
+    margin-top: 5%;
+    margin-bottom: 8%;
+    background-color: #ffffff;
+    border-radius: 8px;
+    width: 180px;
+    height: 25px;
+    
+}
+
+.btn{
+margin-top: 10%;
+margin-bottom: 5%;
+height: 30px;
+width: 90px;
+background: linear-gradient(to right, blue, rgb(157, 14, 157));
+border-radius: 10px;
+}
+.lbl{
+    margin-right: 120px;
+    margin-bottom: 150%;
+}
+.lbl1{
+    margin-right: 145px;
+}

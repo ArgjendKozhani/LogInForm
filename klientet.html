@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dashboard.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="dashboard">
+        <aside class="leftSide">
+          <div class="logo">
+            <h2>Hotel Noir</h2>
+            <img src="logo.png" alt="" class="logo1">
+          </div>
+          <nav class="menu">
+            <ul>
+              <li><a href="dashboard.html">Home Page</a></li>
+              <li><a href="dhomat.html">Dhomat</a></li>
+              <li><a href="stafi.html">Stafi</a></li>
+              <li><a href="klientet.html">Klientet</a></li>
+              <li>
+                <button onclick="openModal()" class="logout-btn">Logout</button>
+              </li>
+            </ul>
+           
+          </nav>
+        </aside>
+        <main class="main">
+          <h1>Informacion shtes per klientin</h1>
+          <p>Ketu klienti do ti mundsohet te shikoj informacionet rreth vetes ku muns te sheh daten e hyrje daten e daljes etj....</p>
+        </main>
+      </div>
+      
+      <div id="modal">
+        <div class="content">
+            <h2>A je i sigurt qe doni te dilni?</h2> <br>
+            <a href="index.html"><button class="btn1">Po</button></a> 
+            <button class="btn" onclick="hideModal()">Anulo</button>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
